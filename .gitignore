@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw/local data
+# Keep folder placeholders, but avoid accidentally committing datasets.
+data/raw/*
+!data/raw/.gitkeep
+
+# Temporary outputs
+*.tmp
+*.log
+
+# Power BI temporary/local files
+*.pbit.tmp
